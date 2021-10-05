@@ -17,30 +17,6 @@ cout << "Задача 1: Найдите расстояние между двум
         Ras = sqrt(Qxy);
         cout << "Ответ: " << Ras << endl;
 
-    /* cout << "\nЗадача 2: Найти длины отрезков AC и BC и их сумму" << endl;
-      double a1, b1, a2, b2, a3, b3, Qa31, Qb31, Qa32, Qb32, Q31, Q32, Pac, Pbc, Sum;
-      cout << "Введите координаты точки A (a1;b1)" << endl;
-      cout << "Введите a1 = "; cin >> a1;
-      cout << "Введите b1 = "; cin >> b1;
-      cout << "Введите координаты точки B (a2;b2)" << endl;
-      cout << "Введите a2 = "; cin >> a2;
-      cout << "Введите b2 = "; cin >> b2;
-      cout << "Введите координаты точки C (a3;b3)" << endl;
-      cout << "Введите a3 = "; cin >> a3;
-      cout << "Введите b3 = "; cin >> b3;
-      Qa31 = (a3 - a1) * (a3 - a1);
-      Qb31 = (b3 - b1) * (b3 - b1);
-      Q31 = Qa31 + Qb31;
-      Pac = sqrt(Q31);
-      Qa32 = (a3 - a2) * (a3 - a2);
-      Qb32 = (b3 - b2) * (b3 - b2);
-      Q32 = Qa32 + Qb32;
-      Pbc = sqrt(Q32);
-      Sum = Pac + Pbc;
-      cout << "Длина отрезка AC = " << Pac << endl;
-      cout << "Длина отрезка BC = " << Pbc << endl;
-      cout << "Сумма длин отрезков AC и BC = " << Sum << endl; */
-
 cout << "\nЗадача 2: Найти длины отрезков AC и BC и их сумму" << endl;
          double a1, a2, a3, AC, BC, Sum;
          cout << "Введите значение точки A на числовой прямой: "; cin >> a1;
