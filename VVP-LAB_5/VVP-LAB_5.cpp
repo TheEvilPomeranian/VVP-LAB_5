@@ -1,10 +1,9 @@
-﻿#include <iostream>
-#include <windows.h>
+#include <iostream>
 #include <math.h>
 using namespace std;
 
 int main(){
-        SetConsoleOutputCP(1251);
+        setlocale(LC_ALL, "Rus");
 cout << "Задача 1: Найдите расстояние между двумя точками с заданными координатами (x1;y1) и (x2;y2)" << endl;
         double x1, y1, x2, y2, Ras, Qx, Qy, Qxy;
         cout << "Введите x1 = "; cin >> x1;
