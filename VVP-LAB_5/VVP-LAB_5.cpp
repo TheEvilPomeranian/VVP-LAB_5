@@ -86,7 +86,7 @@ cout << "\nЗадача 4: Даны координаты двух противо
         cout << "Площадь прямоугольника ABCD: " << S << endl;
 
 cout << "\nЗадача 5: Даны координаты трех вершин треугольника: (x1, y1), (x2, y2), (x3, y3). Найти его периметр и площадь" << endl;
-        double r1, r2, r3, t1, t2, t3, h, H, SS, PP, p, Qr21, Qt21, Qr32, Qt32, Qr13, Qt13, RasAB, RasBC, RasCA;
+        double r1, r2, r3, t1, t2, t3, SS, PP, p, Qr21, Qt21, Qr32, Qt32, Qr13, Qt13, RasAB, RasBC, RasCA;
         cout << "Введите координаты точки A (x1;y1)" << endl;
         cout << "Введите x1 = "; cin >> r1;
         cout << "Введите y1 = "; cin >> t1;
